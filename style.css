@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: black;
+}
+
+
+header {
+    background-image: url("images/banner0.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+
+.imagen-proyecto {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mercurio-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 40px auto;
+}
+
+#mercurio {
+    width: 100px;
+    height: 100px;
+    background-color: red; /* color falso inicial */
+    border-radius: 50%;
+    transition: background-color 0.6s ease;
+}
+
+#btnMercurio {
+    padding: 10px 15px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+footer .redes {
+    margin: 15px 0;
+}
+
+footer a {
+    color: #8ab4f8;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer .copyright {
+    font-size: 0.9em;
+    opacity: 0.7;
+}
+
+
